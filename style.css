@@ -65,6 +65,8 @@ html, body{
 #nav h5{
     width: 30%;
     font-size: 2rem;
+    font-family: font2;
+    font-weight: 100;
 }
 
 #elems{
@@ -251,7 +253,7 @@ html, body{
     font-family: font3;
     letter-spacing: -6px;
     line-height: 15.4rem;
-    text-align: center;
+    
  }
 
  #page2-left h2 span{
@@ -264,6 +266,7 @@ html, body{
    width: 100%;
    border: 1px solid #000;
    margin-bottom: 4rem;
+   object-fit: cover;
  }
  #page2 p{
     font-size: 3.4rem;
@@ -286,6 +289,7 @@ html, body{
     border: 1px solid #000;
     margin-bottom: 5rem;
     margin-top: 2rem;
+    object-fit: cover;
     
  }
 
@@ -297,4 +301,31 @@ html, body{
     letter-spacing: -6px;
     line-height: 12rem;
  }
+ #page3{
+height: 50vh;
+width: 100%;
+background-color: #C6BFB5;
+/* background-color: red; */
+display: flex;
+/* padding: 3rem; */
+ }
+
+ #page3 h2{
+    display: block;
+    background-color:#1C1C19;
+    color:#C6BFB5;
+    font-size: 50rem;
+    line-height: 40rem;
+    font-family: font3;
+    font-weight: 100;
+    letter-spacing: -24px;
+    margin: 2%;
+    padding: 2rem 4rem;
+ }
  
+ #page3 img{
+    padding-top:2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    padding-left: 0;
+ }
